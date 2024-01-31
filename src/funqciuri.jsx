@@ -1,15 +1,14 @@
 import React from "react";
 
-class Funqciuri extends React.Component {
-    render() {
-        return (
-            <React.Fragment>
-                {
-                    document.write("gio")
+
+function Funqciuri() {
+    return (
+        <React.Fragment>
+            {
+                    document.write("Hello World")
                 }
-            </React.Fragment>
-        );
-    }
+        </React.Fragment>
+    )
 }
 
 export default Funqciuri;
